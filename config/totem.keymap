@@ -41,10 +41,10 @@
 
         num {
             bindings = <
-        &none   &none          &none             &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS    &kp RPAR         &kp RIGHT_BRACKET   &none         &kp MINUS      &kp EQUAL
-        &kp N1  &bhm LCTRL N2  &bhm LEFT_ALT N3  &bhm LEFT_SHIFT N4  &kp N5                  &kp N6           &bhm LEFT_SHIFT N7  &bhm LALT N8  &bhm LCTRL N9  &kp N0
-&trans  &none   &none          &none             &kp LESS_THAN       &kp LEFT_BRACE          &kp RIGHT_BRACE  &kp GREATER_THAN    &none         &none          &kp FSLH   &kp BSLH
-                               &trans            &trans              &trans                  &trans           &trans              &trans
+        &kp LS(N1)  &kp LS(N2)     &kp LS(N3)        &kp LS(N4)          &kp LS(N5)              &kp LS(N6)             &kp LS(N7)          &kp LS(N8)       &kp MINUS         &kp EQUAL
+        &kp N1      &bhm LCTRL N2  &bhm LEFT_ALT N3  &bhm LEFT_SHIFT N4  &kp N5                  &kp N6                 &bhm LEFT_SHIFT N7  &bhm LALT N8     &bhm LCTRL N9     &kp N0
+&trans  &none       &kp LESS_THAN  &kp LEFT_BRACE    &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET   &kp RIGHT_BRACE  &kp GREATER_THAN  &kp FSLH   &kp BSLH
+                                   &trans            &trans              &trans                  &trans                 &trans              &trans
             >;
         };
 
