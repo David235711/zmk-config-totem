@@ -65,10 +65,10 @@
 
         num {
             bindings = <
-        &kp LS(N1)    &kp LS(N2)     &kp LS(N3)        &kp LS(N4)          &kp LS(N5)              &kp LS(N6)             &kp LS(N7)          &kp LS(N8)       &kp MINUS         &kp EQUAL
-        &bhm LGUI N1  &bhm LCTRL N2  &bhm LEFT_ALT N3  &bhm LEFT_SHIFT N4  &kp N5                  &kp N6                 &bhm LEFT_SHIFT N7  &bhm LALT N8     &bhm LCTRL N9     &bhm RGUI N0
-&trans  &kp CAPSLOCK  &kp LESS_THAN  &kp LEFT_BRACE    &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET   &kp RIGHT_BRACE  &kp GREATER_THAN  &kp FSLH      &kp BSLH
-                                     &trans            &trans              &trans                  &trans                 &kp UNDER           &trans
+          &kp LS(N1)    &kp LS(N2)     &kp LS(N3)        &kp LS(N4)          &kp LS(N5)              &kp LS(N6)             &kp LS(N7)          &kp LS(N8)       &kp MINUS         &kp EQUAL
+          &bhm LGUI N1  &bhm LCTRL N2  &bhm LEFT_ALT N3  &bhm LEFT_SHIFT N4  &kp N5                  &kp N6                 &bhm LEFT_SHIFT N7  &bhm LALT N8     &bhm LCTRL N9     &bhm RGUI N0
+&kp PLUS  &kp LS(BSLH)  &kp LESS_THAN  &kp LEFT_BRACE    &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET   &kp RIGHT_BRACE  &kp GREATER_THAN  &kp FSLH      &kp BSLH
+                                       &trans            &trans              &trans                  &trans                 &kp UNDER           &trans
             >;
         };
 
@@ -76,7 +76,7 @@
             bindings = <
          &kp F1              &kp F2            &kp F3           &kp F4               &kp F5       &kp F6  &kp F7          &kp F8          &kp F9        &kp F10
          &bhm LEFT_GUI HOME  &bhm LCTRL PG_DN  &bhm LALT PG_UP  &bhm LEFT_SHIFT END  &kp LCTRL    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&kp F12  &kp PSCRN           &none             &none            &kp INSERT           &kp DEL      &none   &none           &none           &none         &none            &kp F11
+&kp F12  &kp PSCRN           &kp CAPS          &kp SCROLLLOCK   &kp INSERT           &kp DEL      &none   &none           &none           &none         &none            &kp F11
                                                &kp LSHIFT       &kp LEFT_ALT         &trans       &trans  &trans          &trans
             >;
         };
